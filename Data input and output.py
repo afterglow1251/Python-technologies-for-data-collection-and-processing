@@ -9,7 +9,7 @@ print("(S)he lives in", location)
 
 #2
 expression = "4 * 100 - 54"
-result = eval(expression)  # Використовуємо функцію eval() для обчислення виразу
+result = eval(expression)  
 user_answer = int(input(f"Solve the expression {expression}: "))
 print("Correct answer:", result)
 print("Your answer:", user_answer)
